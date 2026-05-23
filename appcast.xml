@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<channel>
+    <title>Winjitsu Updates</title>
+    <item>
+        <title>Version 1.0 (Build 3)</title>
+        <pubDate>Sat, 23 May 2026 02:39:16 +0000</pubDate>
+        <sparkle:version>3</sparkle:version>
+        <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+        <enclosure url="https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg"
+                   length="4432159"
+                   type="application/octet-stream"
+                   sparkle:edSignature="WuoM5UlFpcX5zKPUEIB2jIlP6OKurBgvYQnfT4sLC6PQbj91FDEvnRGTce/a7ouSWZ6Ki15TsRXFeAQrE+t0DQ==" />
+    </item>
+</channel>
+</rss>
