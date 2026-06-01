@@ -3,14 +3,14 @@
 <channel>
     <title>Winjitsu Updates</title>
     <item>
-        <title>Version 1.0 (Build 23)</title>
-        <pubDate>Mon, 01 Jun 2026 22:44:17 +0000</pubDate>
-        <sparkle:version>23</sparkle:version>
+        <title>Version 1.0 (Build 24)</title>
+        <pubDate>Mon, 01 Jun 2026 22:46:18 +0000</pubDate>
+        <sparkle:version>24</sparkle:version>
         <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
         <enclosure url="https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg"
-                   length="5268539"
+                   length="5268452"
                    type="application/octet-stream"
-                   sparkle:edSignature="AgLp54Sq8e58NjYtMSqdHbqs+nbc0PMFzts2wORKIxVDONe3htcyY2CTxMhhW5AS1tDtyCJ5hipj/8+Y0yElDw==" />
+                   sparkle:edSignature="7m2Onsuv5U5ugrLvfnxbOPCFgg6KqYr15FBy7sRqzWkqkXur+Xwm78s3uFFnbxcT4CW9W0aLocikE3QuvW2OBA==" />
     </item>
 </channel>
 </rss>
