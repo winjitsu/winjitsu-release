@@ -1,95 +1,106 @@
 # Winjitsu
 
-### A keyboard-driven precision instrument for macOS.
+### Keyboard-first window control for macOS.
 
-**Winjitsu** is a workspace control instrument designed for users who think spatially and prefer to keep their hands on the keyboard. It treats your desktop as a freeform canvas, allowing you to navigate, move, and resize windows using intuitive, fully customizable keyboard shortcuts.
+Command your workspace at the speed of thought—whether your windows are neatly arranged or organically overlapping.
 
-[**Download Latest Release**](https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg) | [**Official Website**](https://winjitsu.app)
+[**Download Latest Release**](https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg) | [**Official Website**](https://winjitsu.app) | [**Privacy Policy**](https://winjitsu.app/privacy)
 
 ---
 
-## The Philosophy
+## Is Winjitsu Open Source?
 
-Terminal users developed a spatial keyboard-navigation model that never really existed on the desktop. Winjitsu is an attempt to bring that model to ordinary windows.
+**No. Winjitsu is proprietary software.** 
 
-Most window managers force a binary choice:
+This repository serves as our public distribution hub to publish official pre-built binary releases (`.pkg`), host documentation, and maintain public attributions for the open-source projects that inspired or informed our technical research. 
 
-1.  **The Chaos:** Free-floating windows you hunt through with clicks and endless alt-tabbing.
-2.  **The Cage:** Rigid tiling systems that fight macOS, locking everything into a spreadsheet-like grid.
+- The desktop application binaries published here are **free to download and use**.
+- We offer a **Free Forever (Core)** tier alongside a **Pro** upgrade.
 
-**Winjitsu provides a different paradigm.**
-We believe your desktop is a **canvas**, not a spreadsheet. Winjitsu provides order without restriction, giving you keyboard efficiency without fighting the native behavior of macOS.
+---
 
-> _"It's not a terminal; it's not a grid; it's a desktop canvas that finally understands direction and layers."_
+## Philosophy: Canvas, Not a Cage
+
+Most macOS window management tools force a binary choice:
+
+1. **The Chaos:** Free-floating windows you hunt through with mouse clicks and endless `Cmd+Tab` cycling.
+2. **The Cage:** Rigid tiling window managers that fight macOS, locking everything into a rigid grid.
+
+**Winjitsu introduces a different paradigm.**
+
+We treat your desktop as a **freeform canvas**, not a spreadsheet. Winjitsu provides spatial order without restriction, giving you keyboard efficiency without fighting native macOS behaviors or forcing your windows into rigid constraints.
 
 ---
 
 ## Key Features
 
-- **True Spatial Navigation:** Move focus in the direction you mean—even in overlapping, stacked, or irregular layouts.
-- **Mission Control, Keyboard-First:** Navigate, close windows, and move them between Spaces without touching the mouse.
-- **Visual Feedback:** Clear preview borders show you exactly where focus will land before it moves.
-- **Stack Cycling:** Fully stack windows on top of each other and cycle through them fluidly.
-- **Granular Window Shaping:** Resize one edge at a time, nudge precisely, and shape windows instead of just snapping them.
-- **Native Harmony:** Designed to augment macOS, not replace it. Works seamlessly with Spaces, Mission Control, and Stage Manager.
+- **Directional Window Focus (HJKL):** Move focus spatially in the direction you mean—even across overlapping, stacked, or irregular window layouts.
+- **Focus Preview Borders (Pro):** An active visual outline shows you exactly where focus will land before you commit.
+- **Window Stack & Container Cycling:** Fully stack windows on top of each other and flip through them fluidly in place like a deck of cards.
+- **Mission Control Keyboard Navigation:** Search, select, close windows, or force-quit apps directly in Mission Control—100% keyboard driven.
+- **Space-to-Space Window Moving (Pro):** Move windows directly to any of your macOS Desktops without dragging.
+- **Edge-Specific Resizing (Pro):** Independently grow or shrink any single window edge (left, right, top, bottom) instead of just snapping.
+- **Native Harmony:** Works seamlessly with macOS Spaces, Mission Control, and Stage Manager—no SIP modification required.
 
 ---
 
-## Privacy & The Technical Truth
+## Licensing & Pricing
 
-Winjitsu is built with an **offline-first philosophy**. Because window managers require Accessibility permissions to function, we believe absolute transparency is the only way to build trust.
+Winjitsu is available in two tiers:
 
-### Local-First Operation
+| Feature Tier | Price | Licensing Terms |
+| :--- | :--- | :--- |
+| **Winjitsu (Core)** | **$0 (Free Forever)** | Essential spatial navigation (HJKL), basic stack cycling, standard grid snapping, and 100% local privacy. Free forever with no account or payment info required. |
+| **Winjitsu Pro** | **$19 USD (One-Time)** | Unlocks Focus Preview Borders, interactive Mission Control actions (close/quit), Desktop Space tossing, edge-specific resizing, snap history undo, and custom snap sequences. Lifetime license for 1 Mac + free 1.x updates. |
 
-All window management operations are performed locally on your Mac. Winjitsu does **not** use its permissions to transmit:
+> **30-Day Pro Trial:** Every new download includes a **full 30-day trial of all Pro features**—no credit card, email, or account required. After 30 days, Pro features gracefully lock, while **Core features remain free forever**.
 
-- Window titles or contents
-- Document names or contents
-- Screenshots or recordings
-- Your keystrokes or clipboard
-- Application activity logs
+---
 
-### Network Activity
+## Privacy & Local-First Design
 
-Winjitsu operates primarily offline. It touches the internet for only three reasons:
+Winjitsu is built with an **offline-first, private-by-default architecture**. Because macOS window control requires Accessibility permissions, Winjitsu is designed so that your window titles, contents, and keystrokes **never leave your Mac**. There is nothing to opt out of—there is no telemetry or behavioral tracking collected in the first place.
 
-1.  **License Validation (Pro):** A periodic check (approx. every 30 days) to confirm a Pro license is valid. This transmits only a cryptographic token and a pseudonymous machine ID.
-2.  **Software Updates:** Using the Sparkle framework to check for newer versions (can be disabled in Settings).
-3.  **Optional Diagnostic Reports:** Only sent if you explicitly choose to submit a support report. You have total control over generating, reviewing, and sending these reports.
+### What Stays Local:
+- Window titles, contents, and application geometry
+- Document names and file contents
+- Keystrokes, mouse activity, and clipboard data
+- Screenshots and screen recordings
 
-For the exhaustive policy, visit [winjitsu.app/privacy](https://winjitsu.app/privacy).
+### Network Activity:
+Winjitsu operates primarily offline. Network calls are limited strictly to:
+1. **License Validation (Pro):** A periodic check (approx. every 30 days) transmitting only an encrypted license token and a pseudonymous machine ID.
+2. **Software Updates:** Optional background version checks via the Sparkle framework (can be toggled in Settings).
+3. **Optional Diagnostic Reports:** Only generated and sent if you explicitly initiate a support ticket.
+
+Read the complete policy at [winjitsu.app/privacy](https://winjitsu.app/privacy).
 
 ---
 
 ## Installation
 
-1.  Download the [Winjitsu-Installer.pkg](https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg).
-2.  Run the installer and follow the prompts.
-3.  Upon first launch, macOS will prompt you to grant **Accessibility** permissions. This is required for Winjitsu to move and resize windows.
-
-## Pricing
-
-Winjitsu is available in two tiers:
-
-- **Winjitsu (Core):** Basic spatial navigation and standard shortcuts. Free forever.
-- **Winjitsu Pro:** Unlimited shortcuts, Mission Control navigation, advanced stack cycling, and visual feedback. One-time purchase.
-
-_Every installation includes a 30-day trial of Pro features—no account or payment info required._
+1. Download the latest [`Winjitsu-Installer.pkg`](https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg).
+2. Open the package and follow the standard macOS installation wizard.
+3. Upon first launch, grant **Accessibility** permissions when prompted by macOS (`System Settings > Privacy & Security > Accessibility`).
 
 ---
 
-## Credits & Gratitude
+## Credits & Attributions
 
-Winjitsu wouldn't exist without the incredible work of the macOS utility community. A special thanks to [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) for providing our original development laboratory, and to the developers of [Yabai](https://github.com/koekeishiya/yabai), [AeroSpace](https://github.com/nikitabobko/AeroSpace), [Rectangle](https://github.com/rxhanson/Rectangle), and others, for the inspiration and pushing the boundaries of what's possible on a Mac.
+Winjitsu stands on the shoulders of the macOS developer community. We extend our deep gratitude to:
 
-For the full list of attributions and verbatim license texts, see [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) and [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+- **[Hammerspoon](https://github.com/Hammerspoon/hammerspoon):** Our original laboratory for prototyping spatial window orchestration and Carbon process activation heuristics.
+- **[Yabai](https://github.com/koekeishiya/yabai) & [AeroSpace](https://github.com/nikitabobko/AeroSpace):** For pioneering SkyLight (SLS) window server research and pushing the boundaries of macOS window management.
+- **[Rectangle](https://github.com/rxhanson/Rectangle):** For establishing clean standards in open-source window snapping.
+
+For full license texts and detailed attribution breakdowns, see [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) and [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
 
 ---
 
-## Support & Community
+## Support & Links
 
 - **Website:** [winjitsu.app](https://winjitsu.app)
-- **Contact:** [contact@winjitsu.app](mailto:contact@winjitsu.app)
-- **Privacy:** [privacy@winjitsu.app](mailto:privacy@winjitsu.app)
+- **General Inquiries:** [contact@winjitsu.app](mailto:contact@winjitsu.app)
+- **Privacy Inquiries:** [privacy@winjitsu.app](mailto:privacy@winjitsu.app)
 
-_Precision control for the spatial mind._
+*Command your workspace at the speed of thought.*
