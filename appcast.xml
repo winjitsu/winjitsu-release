@@ -3,15 +3,15 @@
 <channel>
     <title>Winjitsu Updates</title>
     <item>
-        <title>Version 1.0 (Build 68)</title>
-        <pubDate>Sun, 13 Sep 2026 23:16:26 +0000</pubDate>
-        <sparkle:version>68</sparkle:version>
+        <title>Version 1.0 (Build 69)</title>
+        <pubDate>Mon, 14 Sep 2026 18:31:20 +0000</pubDate>
+        <sparkle:version>69</sparkle:version>
         <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-        <sparkle:releaseNotesLink>https://winjitsu.github.io/winjitsu-release/notes/v1.0_b68.html</sparkle:releaseNotesLink>
+        <sparkle:releaseNotesLink>https://winjitsu.github.io/winjitsu-release/notes/v1.0_b69.html</sparkle:releaseNotesLink>
         <enclosure url="https://github.com/winjitsu/winjitsu-release/releases/latest/download/Winjitsu-Installer.pkg"
-                   length="4357120"
+                   length="4359260"
                    type="application/octet-stream"
-                   sparkle:edSignature="J/ZnlwZTJEy4s7voScanYzNiGV+uJn/q4GJSSG6rmfIEMYqPtGts+VdidxUJEcbCDUCl/+3jtQ63NFiHT2qaAA==" />
+                   sparkle:edSignature="tOVwhM4dXGDfxsyHyI06cJxBEha1mRXu3ZHSBsMA9panbUCWZ8aPVDtXCjOD2+1G5EzGsHwQa194QjvqVDKnCA==" />
     </item>
 </channel>
 </rss>
